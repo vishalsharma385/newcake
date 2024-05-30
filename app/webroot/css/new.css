@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url('https://img.freepik.com/free-photo/city-architecture-landscape-digital-art_23-2151065629.jpg?t=st=1716882804~exp=1716886404~hmac=1321cd02003c7c5b5e52e6f70f91cf4de6c26eacf8b8bfa0de92db3fdc48dc9a&w=900') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    color: #10182f;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px;
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+.actions h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.actions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.actions ul li {
+    margin-bottom: 5px;
+}
+
+.actions ul li a {
+    text-decoration: none;
+    color: #ff5a5f;
+    transition: color 0.3s ease;
+}
+
+.actions ul li a:hover {
+    color: #e14d50;
+}
+
+.posts.index h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f5f5f5;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e14d50;
+}
+
+.users-posts h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.users-posts table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.users-posts table th,
+.users-posts table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.users-posts table th {
+    background-color: #f5f5f5;
+}
+
+.users-posts table tr:hover {
+    background-color: #f1f1f1;
+}
